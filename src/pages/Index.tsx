@@ -1,10 +1,12 @@
 import { SubscribeForm } from "@/components/SubscribeForm";
 import { AuroraBackground } from "@/components/ui/aurora-background";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import { motion } from "framer-motion";
 
 const Index = () => {
   return (
     <AuroraBackground>
+      <ThemeToggle />
       <motion.div
         initial={{ opacity: 0.0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}

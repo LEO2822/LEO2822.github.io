@@ -32,7 +32,7 @@ export const SubscribeForm = () => {
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         required
-        className="bg-white/5 border-white/10 text-white placeholder:text-white/50"
+        className="bg-white/10 border-white/20 text-white placeholder:text-white/70 focus:border-white/50 focus:ring-white/50"
       />
       <Button type="submit" disabled={isLoading}>
         {isLoading ? "Signing up..." : "Sign up"}
